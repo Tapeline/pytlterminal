@@ -27,5 +27,5 @@ The console:
 ```
 example>quit
 (i) Bye!
-example console was ended. Reason: ended by user
+example console ended. Reason: ended by user
 ```
