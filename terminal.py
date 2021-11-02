@@ -25,6 +25,10 @@ class Terminal:
             else:
                 self.err(f"[{self.prefix}] {without_args} is not defined!")
 
+    def stop(self, reason=None):
+        self.running = False
+        print(f"{self.prefix} console ended." + f"Reason: {reason}" if reason is not None else "")
+
     def info(self, msg):
         print(f"(i) {msg}")
 
