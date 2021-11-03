@@ -3,11 +3,11 @@
 Simple library for creating command line apps.
 
 ## Usage:
-`term = Terminal(prefix)` - create Terminal instance. Prefix will be used for output
-`@term.cmd("command")` - registers decorated function as command executor. You can stack them.
-`term.out|err|warn|info(msg)` - outputs `msg` with different prefix
-`term.stop([reason])` - stop the terminal
-`term.run()` - run the terminal
+- `term = Terminal(prefix)` - create Terminal instance. Prefix will be used for output
+- `@term.cmd("command")` - registers decorated function as command executor. You can stack them.
+- `term.out|err|warn|info(msg)` - outputs `msg` with different prefix
+- `term.stop([reason])` - stop the terminal
+- `term.run()` - run the terminal
 
 Example:
 ```
